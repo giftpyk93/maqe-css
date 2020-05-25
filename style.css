@@ -16,7 +16,8 @@ body {
   border-radius: 40px;
   border: 13px solid #66c3e9;
   box-shadow: inset 0 0 0 12px #f7f7f7, 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
-  width: calc(100% -115px);
+  width: calc(100vw -115px);
+  height: calc(100vw -115px);
 }
 
 .center-box {
@@ -30,7 +31,8 @@ body {
 
 .char-box {
   position: relative;
-  width: calc(50% - 70px);
+  width: calc(50vw - 165px);
+  height: calc(50vw - 165px);
   background-color: #f7f7f7;
   box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.5), 1px 1px 0 0 #ddd;
   margin: 35px;
